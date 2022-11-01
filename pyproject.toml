@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ypf-data-comp"
+version = "0.1.0"
+description = "YPF/MetaData data competition"
+authors = ["Facu Palavecino <facundo6991@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ypf_data_comp"}]
+
+[tool.poetry.dependencies]
+python = "^3.8, <3.9"
+pandas = "^1.5.1"
+numpy = "^1.23.4"
+xgboost = "^1.6.2"
+matplotlib = "3.5.1"
+scikit-learn = "^1.1.2"
+jupyter = "^1.0.0"
+notebook = "^6.5.1"
+pandas-profiling = "^3.4.0"
+seaborn = "^0.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
